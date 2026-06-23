@@ -51,7 +51,7 @@ Recommended prefixes:
 
 Recommended examples:
 
-```text
+```
 feat: add repository graph extractor
 fix: handle empty workspace
 docs: update quick start
