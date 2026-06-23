@@ -1,0 +1,30 @@
+name: Question
+description: Ask a usage, design, or workflow question
+title: "question: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to understand?
+      placeholder: Ask a focused question.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you building or trying to do?
+      placeholder: Include the project, workflow, command, or agent scenario.
+    validations:
+      required: false
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What you already tried
+      description: Share docs, commands, examples, or approaches you have already checked.
+    validations:
+      required: false
