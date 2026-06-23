@@ -55,3 +55,7 @@ Recommended examples:
 feat: add repository graph extractor
 fix: handle empty workspace
 docs: update quick start
+Project Status
+
+GlyphEvo Labs projects are early-stage. APIs and repository structures may change while the projects evolve toward stable releases.
+```
